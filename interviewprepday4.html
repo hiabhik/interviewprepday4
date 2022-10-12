@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Q1.How many operators do we have in JS ?</h3>
+    <pre>
+        An operator is capable of manipulating a certain value or operand. Operators are used to perform specific mathematical and logical computations on operands. In other words, we can say that an operator operates the operands. In JavaScript operators are used for compare values, perform arithmetic operations etc. There are various operators supported by JavaScript:  
+
+         Arithmetic Operators
+         Comparison Operators
+         Logical Operators
+         Assignment Operators
+         Ternary Operators 
+         typeof Operator
+  </pre>
+
+    <h3>Q2.What are pure functions?</h3>
+    <pre>
+    In computer programming, a pure function is a function that has the following properties: the function return values are identical for identical arguments (no variation with local static variables, non-local variables, mutable reference arguments or input streams), and.
+  </pre>
+
+  <h3>Q3.What is callback hell</h3>
+  <pre>
+    Callback Hell: Callback Hell is essentially nested callbacks stacked below one another forming a pyramid structure. Every callback depends/waits for the previous callback, thereby making a pyramid structure that affects the readability and maintainability of the code.
+  </pre>
+
+   <h3>Q4.What are promises and why do we need them?</h3>
+   <pre>
+    Promises are used to handle asynchronous operations in JavaScript. They are easy to manage when dealing with multiple asynchronous operations where callbacks can create callback hell leading to unmanageable code.
+   </pre>
+
+   <h3>Q4.What is promise chaining</h3>
+    <pre>
+        Promise chaining: Promise chaining is a syntax that allows you to chain together multiple asynchronous tasks in a specific order. This is great for complex code where one asynchronous task needs to be performed after the completion of a different asynchronous task
+    </pre>
+
+
+    <h3>Q5.Give an example of async/await</h3>
+
+    <pre>
+        Let’s start with the async keyword. It can be placed before a function, like this:
+
+       async function f() {
+         return 1;
+        }
+        The word “async” before a function means one simple thing: a function always returns a promise. Other values are wrapped in a resolved promise automatically.
+
+        For instance, this function returns a resolved promise with the result of 1; let’s test it:
+
+        async function f() {
+        return 1;
+        }
+
+         f().then(alert); 
+    </pre>
+
+<h3>Q6.What is the purpose of async/await keywords?</h3>
+ 
+<pre>
+    The async keyword turns a method into an async method, which allows you to use the await keyword in its body. When the await keyword is applied, it suspends the calling method and yields control back to its caller until the awaited task is complete. await can only be used inside an async method
+</pre>
+
+
+
+
+
+  </body>
+</html>
